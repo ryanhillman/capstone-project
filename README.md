@@ -90,7 +90,7 @@ Local: http://localhost:3000
 Network: http://<your-ip>:3000
 (may show Auth0 error: requires HTTPS/secure origin)
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 Auth0 requires secure origins.
 
