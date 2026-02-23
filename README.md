@@ -1,11 +1,11 @@
-# 🎓 Capstone Project
+# Capstone Project
 
 Conversate is a full-stack portfolio project that demonstrates secure authentication, interactive flashcards, and translation features in a language learning web application. The backend is powered by Flask and PostgreSQL with migrations managed through Alembic, while the frontend uses Vue.js with Auth0 integration.
 
-## 📷 Screenshot
+## Screenshot
 ![App Screenshot](./screenshot.png)
 
-## 📌 Features
+## Features
 
 Authentication with Auth0 (secure login/logout, profile handling).  
 Backend API built with Flask + SQLAlchemy, migrations managed by Flask-Migrate (powered by Alembic).  
@@ -14,7 +14,7 @@ CRUD operations for lessons, flashcards, and user profiles.
 Database migrations using Alembic to evolve schema over time.  
 Demo ready: local environment spins up with `python manage.py runserver` (backend) and `npm run serve` (frontend).  
 
-## 💻 Tech Stack
+## Tech Stack
 
 **Backend**
 - Python 3.9  
@@ -30,7 +30,7 @@ Demo ready: local environment spins up with `python manage.py runserver` (backen
 - Auth0 SPA SDK  
 - Sass for styling  
 
-## ⚙️ Installation
+## Installation
 
 ### Backend
 
