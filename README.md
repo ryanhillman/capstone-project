@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Application-Full%20Stack-black" />
+  <img src="https://img.shields.io/badge/Backend-Flask-000000?logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/Frontend-Vue.js-42B883?logo=vue.js&logoColor=white" />
+</p>
+
 # Capstone Project
 
 Conversate is a full-stack portfolio project that demonstrates secure authentication, interactive flashcards, and translation features in a language learning web application. The backend is powered by Flask and PostgreSQL with migrations managed through Alembic, while the frontend uses Vue.js with Auth0 integration.
