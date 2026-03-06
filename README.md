@@ -58,10 +58,15 @@ cd capstone-project/backend`
 
 #### Configure environment variables
 `FLASK_APP=app.py`
+
 `FLASK_ENV=development`
+
 `DATABASE_URL=postgresql://username:password@localhost:5432/capstone_db`
+
 `AUTH0_DOMAIN=your-auth0-domain`
+
 `AUTH0_CLIENT_ID=your-client-id`
+
 `AUTH0_CLIENT_SECRET=your-client-secret`
 
 #### Run database migrations
@@ -82,7 +87,9 @@ http://127.0.0.1:5000
 
 #### Configure environment variables
 `VUE_APP_AUTH0_DOMAIN=your-auth0-domain`
+
 `VUE_APP_AUTH0_CLIENT_ID=your-client-id`
+
 `VUE_APP_AUTH0_AUDIENCE=http://localhost:5000`
 
 #### Run development server
