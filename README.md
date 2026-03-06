@@ -41,11 +41,11 @@ Demo ready: local environment spins up with `python manage.py runserver` (backen
 ### Backend
 
 #### Clone repository
-git clone https://github.com/ryanhillman/capstone-project.git
-cd capstone-project/backend
+`git clone https://github.com/ryanhillman/capstone-project.git
+cd capstone-project/backend`
 
 #### Create and activate virtual environment
-python3.9 -m venv venv
+`python3.9 -m venv venv`
 
 ##### Windows
 venv\Scripts\activate
@@ -54,31 +54,31 @@ venv\Scripts\activate
 source venv/bin/activate
 
 #### Install dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 #### Configure environment variables
-FLASK_APP=app.py
+`FLASK_APP=app.py
 FLASK_ENV=development
 DATABASE_URL=postgresql://username:password@localhost:5432/capstone_db
 AUTH0_DOMAIN=your-auth0-domain
 AUTH0_CLIENT_ID=your-client-id
-AUTH0_CLIENT_SECRET=your-client-secret
+AUTH0_CLIENT_SECRET=your-client-secret`
 
 #### Run database migrations
-python manage.py db upgrade
+`python manage.py db upgrade`
 
 #### Start backend
-python manage.py runserver
+`python manage.py runserver`
 
 The backend will run on: 
 
 http://127.0.0.1:5000
 
 ### Frontend
-cd capstone-project/frontend
+`cd capstone-project/frontend`
 
 #### Install dependencies
-npm install
+`npm install`
 
 #### Configure environment variables
 VUE_APP_AUTH0_DOMAIN=your-auth0-domain
@@ -86,7 +86,7 @@ VUE_APP_AUTH0_CLIENT_ID=your-client-id
 VUE_APP_AUTH0_AUDIENCE=http://localhost:5000
 
 #### Run development server
-npm run serve
+`npm run serve`
 
 The frontend will run on: 
 
