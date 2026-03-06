@@ -48,21 +48,21 @@ cd capstone-project/backend`
 `python3.9 -m venv venv`
 
 ##### Windows
-venv\Scripts\activate
+`venv\Scripts\activate`
 
 ##### Mac/Linux
-source venv/bin/activate
+`source venv/bin/activate`
 
 #### Install dependencies
 `pip install -r requirements.txt`
 
 #### Configure environment variables
-`FLASK_APP=app.py
-FLASK_ENV=development
-DATABASE_URL=postgresql://username:password@localhost:5432/capstone_db
-AUTH0_DOMAIN=your-auth0-domain
-AUTH0_CLIENT_ID=your-client-id
-AUTH0_CLIENT_SECRET=your-client-secret`
+`FLASK_APP=app.py`
+`FLASK_ENV=development`
+`DATABASE_URL=postgresql://username:password@localhost:5432/capstone_db`
+`AUTH0_DOMAIN=your-auth0-domain`
+`AUTH0_CLIENT_ID=your-client-id`
+`AUTH0_CLIENT_SECRET=your-client-secret`
 
 #### Run database migrations
 `python manage.py db upgrade`
@@ -81,9 +81,9 @@ http://127.0.0.1:5000
 `npm install`
 
 #### Configure environment variables
-VUE_APP_AUTH0_DOMAIN=your-auth0-domain
-VUE_APP_AUTH0_CLIENT_ID=your-client-id
-VUE_APP_AUTH0_AUDIENCE=http://localhost:5000
+`VUE_APP_AUTH0_DOMAIN=your-auth0-domain`
+`VUE_APP_AUTH0_CLIENT_ID=your-client-id`
+`VUE_APP_AUTH0_AUDIENCE=http://localhost:5000`
 
 #### Run development server
 `npm run serve`
